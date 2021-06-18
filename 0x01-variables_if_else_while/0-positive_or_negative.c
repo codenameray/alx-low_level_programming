@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/** 
- * main - checks if conditions are met and prints output
- * Return: Always zero (successful)
+/*
+* main - checks if conditions are met and prints output
+* Return: Zero (successful)
 */
 int main(void)
 {
