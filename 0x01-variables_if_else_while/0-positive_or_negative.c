@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/* betty style doc for function main goes there */
+/** 
+ * main - checks if conditions are met and prints output
+ * Return: Always zero (successful)
+*/
 int main(void)
 {
 int n;
