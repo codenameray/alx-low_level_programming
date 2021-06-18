@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
-* main - checks if conditions are met and prints output
-* Return: Zero (successful)
+
+/**
+* main - Entry point
+* checks if random number fulfills conditions
+* prints positive or negative
+*
+* Return: Always 0 (successful)
 */
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-/* your code goes there */
 if (n > 0)
 {
 printf("%d is positive\n", n);
