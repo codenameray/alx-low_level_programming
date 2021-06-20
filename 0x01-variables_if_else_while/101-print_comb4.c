@@ -14,7 +14,7 @@ int j;
 int k;
 for (i = 48 ; i < 58 ; i++)
 {
-for(j = i ; j < 58 ; j++)
+for (j = i ; j < 58 ; j++)
 {
 for (k = j ; k < 58 ; k++)
 {
