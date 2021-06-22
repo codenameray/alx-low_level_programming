@@ -1,17 +1,10 @@
 #include "holberton.h"
 /**
-* main - check the code for ALX School students.
+* print_alphabet - prints a - z.
 *
-* Return: Always 0.
+* Return: Nil.
 */
-/*function declaration*/
-void print_alphabet(void);
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-print_alphabet(void)
+void print_alphabet(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
