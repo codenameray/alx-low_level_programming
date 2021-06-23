@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_alphabet - prints a - z ten times
+* print_alphabet_x10 - prints a - z ten times
 *
 * Return: Nil
 */
@@ -11,7 +11,7 @@ char c;
 while (i < 10)
 {
 c = 'a';
-while (c < 'z')
+while (c <= 'z')
 {
 _putchar(c);
 c++;
