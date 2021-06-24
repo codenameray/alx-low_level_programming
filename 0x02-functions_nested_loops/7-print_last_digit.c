@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _abs- returns 1 if n is lowercase, 0 otherwise
+* _abs- returns absolut value of an integer
 * @n: integer to be tested
 * Return: abs(n)
 */
@@ -12,7 +12,7 @@ else
 return (-1 * n);
 }
 /**
-* print_last_digit - pritns the last digit of a number
+* print_last_digit - prints the last digit of a number
 * @n: integer whose last digit is to be printed
 * Return: lastdigit of n
 */
